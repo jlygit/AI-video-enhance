@@ -1,6 +1,6 @@
 # FSRCNN #
 
-FSRCNN是对SRCNN的一个改进版，速度更快，性能更好。
+FSRCNN是对SRCNN的一个改进版，速度更快，性能更好。FSRCNN与SRCNN都是香港中文大学Dong Chao。
 1.不用像SRCNN那样经过bicubic前处理成目标分辨率的大小，可以直接原图卷积生成特征图，然后最后一层通过反卷积层直接将低分辨率特征图生成高分辨率的超分结果图。
 2.将中间maping层前面加入shrinking和后面加入expanding，可以减少需要maping的特征维度，降低运算量。
 3.增加了mapping的层数，减少卷积核大小。
