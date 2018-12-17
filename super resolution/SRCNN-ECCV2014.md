@@ -8,3 +8,16 @@ F的设计主要包括了三个操作：
 - Patch extraction and representation：特征学习，首先将Y分成很多固定大小的小块(patches)，然后通过卷积学习到特征向量，最后生成了n1个特征图，文中n1为64，卷积核大小为9*9。
 - Non-linear mapping:特征图重新非线性映射，将上一层的特征图映射到另一个高维特征图(mapped vector)，最后得到n2个特征图，这里采用了1*1的卷积核，n2为32。
 - Reconstruction:重建，将上层高维特征图重建生成一个高分辨率图像，也是通过通过卷积方式生成了c通道的图像，卷积核大小为5*5。
+
+效果
+
+![效果展示](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181217174219.jpg)
+
+
+## 开源实现 ##
+
+**算法主页**  [http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html](https://github.com/tegg89/SRCNN-Tensorflow)
+
+**tensorflow**  [https://github.com/tegg89/SRCNN-Tensorflow](https://github.com/tegg89/SRCNN-Tensorflow)
+
+**caffe** [https://github.com/SolessChong/srcnn-caffe](https://github.com/SolessChong/srcnn-caffe)
