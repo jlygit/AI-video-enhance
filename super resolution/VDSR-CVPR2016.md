@@ -11,11 +11,11 @@
 
 这里深层网络训练过程也会更慢，如果学习率很小，如10^-5，那VDSR至少要在GPU上 训练一周，所以加High Learning Rates大学习率是有助于训练上的收敛的，但是也容易引起vanishing/exploding gradients问题，所以文中建议使用大学习率时结合Adjustable Gradient Clipping（常用于递归神经网络）来遏制梯度爆炸。如下图可以看到大学习率的收敛性能。
 
-[https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181218110516.jpg](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181218110516.jpg)
+![](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181218110516.jpg)
 
 总结下，VDSR主要特征有：网络更深性能更好、残差学习、单模型多scale多种倍数的超分。所以性能是棒棒的，如图所示：
 
-[https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181218113624.jpg](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181218113624.jpg)
+![](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181218113624.jpg)
 
 ## 开源实现 ##
 
