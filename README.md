@@ -1,7 +1,7 @@
 # AI-video-enhance
 This repository collects the state-of-the-art algorithms for video/image enhancement using deep learning (AI) in recent years, including reviews and engineering practices.
 
-视频/图像增强手段包括去伪影/去块/去噪(artifacts reduction, deblocking, denoising)、超分辨率(super resolution)、图像/色彩增强(image/color enhancement)，这里主要针对这几种领域收集一些优秀的AI算法，并在工程上进行一些落地代码的试验。
+视频/图像增强手段包括去伪影/去块/去噪(artifacts reduction, deblocking, denoising)、超分辨率(super resolution)、图像/色彩增强(image/color enhancement)，这里主要针对这几种领域收集一些优秀的AI算法，并在工程上进行一些代码试验。
 
 # super resolution
 
