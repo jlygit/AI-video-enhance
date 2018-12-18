@@ -21,7 +21,7 @@ FSRCNN相对于SRCNN速度上提升了40倍左右，并且超分质量也得到�
 文中对训练集合做了一些扩张，首先提出了一个新的数据集，包含100张轮廓清晰、少平滑区域（如天空、大海）的适合超分训练的图像。然后还通过scaling（0.6-0.9）、rotation（90-270度）手段来扩充数据集。
 这里将原清晰大图下采样为指定倍数n的小图，然后再分割为很多块patchs，用于与对应的清晰ground truth组合pairs作为训练集。
 
-![不同参数下的性能表现](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ截图20181218103827.png)
+![不同参数下的性能表现](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181218103827.jpg)
 
 ## 开源实现 ##
 
