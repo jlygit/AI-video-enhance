@@ -15,7 +15,7 @@ FSRCNN相对于SRCNN速度上提升了40倍左右，并且超分质量也得到�
 - 原始小图直接输入，不用bicubic处理。然后是特征提取层，SRCNN采用了9*9的核，因为其输入是通过bicubic的处理，所以卷积核比较大（9*9大小），在FSRCNN就采用了5*5的核，图像输入通道为1（Y通道），输出特征图个数为d个。
 - 非线性mapping改为shringing层、多层mapping、expanding层组成。改进SRCNN中mapping特征通道个数过大的缺点（导致运算量大），FSRCNN首先使用1*1的卷积做特征线性融合处理，输出s个通道的特征图，s远小于d，这样相当于降低特征维度；然后经过多个非线性mapping的映射学习保证质量，这里用了m个3*3的卷积层来mapping，输出同样为s通道的特征图，最后通过1*1的卷积做expanding处理，生成了d通道特征图（其实是shringing的逆运算，做特征图个数的恢复），据文中提到可以提升0.3db的psnr指标。
 - 最后一层采用反卷积层重建高分辨率图像，可以很方便指定多种倍数的超分（X2、X3、X4等），这里使用的卷积核为9*9。
-- 另外FSRCNN使用了PRelu激活函数，不同于SRCNN使用的Relu激活函数f(x<sub>i)=max(x<sub>i,0)，PRelu定义为f(x<sub>i)=max(x<sub>i,0)+a<sub>i*min(0,x<sub>i)，ai用于当xi为负数的情况下。PRelu主要避免了Relu中0梯度引起的“dead features”，可以充分利用所有网络参数。
+- 另外FSRCNN使用了PRelu激活函数，不同于SRCNN使用的Relu激活函数f(x<sub>i</sub>)=max(x<sub>i</sub>,0)，PRelu定义为f(x<sub>i</sub>)=max(x<sub>i</sub>,0)+a<sub>i</sub>*min(0,x<sub>i</sub>)，a<sub>i</sub>用于当x<sub>i</sub>为负数的情况下。PRelu主要避免了Relu中0梯度引起的“dead features”，可以充分利用所有网络参数。
 
 ## 训练与实验 ##
 文中对训练集合做了一些扩张，首先提出了一个新的数据集，包含100张轮廓清晰、少平滑区域（如天空、大海）的适合超分训练的图像。然后还通过scaling（0.6-0.9）、rotation（90-270度）手段来扩充数据集。
