@@ -17,6 +17,7 @@ ESPCN也是最后一层才做上采样，意味着输入和特征映射等都是
 对学习到的特征图，最后使用 Efficient sub-pixel convolution layer：亚像素卷积来重建HR图像，直接看下图，其实就是每个通道有r×r个特征图，然后r×r个特征图相同位置的所有像素点（r×r个像素）排列成长为r宽为r的单通道像素图，这就是亚像素重建。
 
 本算法只考虑y通道的超分。
+
 ![效果](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181217214229.jpg)
 
 ## 开源实现 ##
