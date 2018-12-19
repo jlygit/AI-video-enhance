@@ -11,12 +11,12 @@ This repository collects the state-of-the-art algorithms for video/image enhance
 - [VDSR-CVPR2016](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/VDSR-CVPR2016.md) 
 
 # 资源参考
-- 视频增强 https://github.com/yulunzhang/video-enhancement  
-- 压缩编码 https://github.com/flyywh/Image-compression-and-video-coding  
-- 超分辨率
+- **视频增强 https://github.com/yulunzhang/video-enhancement  
+- **压缩编码 https://github.com/flyywh/Image-compression-and-video-coding  
+- **超分辨率
 [https://github.com/LoSealL/VideoSuperResolution](https://github.com/LoSealL/VideoSuperResolution)
 [https://github.com/icpm/super-resolution](https://github.com/icpm/super-resolution)
 [https://github.com/YapengTian/Single-Image-Super-Resolution](https://github.com/YapengTian/Single-Image-Super-Resolution)
-- awesome-deep-vision https://github.com/kjw0612/awesome-deep-vision
-- Awesome Computer Vision https://github.com/jbhuang0604/awesome-computer-vision
+- **awesome-deep-vision https://github.com/kjw0612/awesome-deep-vision
+- **Awesome Computer Vision https://github.com/jbhuang0604/awesome-computer-vision
 
