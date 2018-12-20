@@ -17,8 +17,9 @@ This repository collects the state-of-the-art algorithms for video/image enhance
 # 资源参考
 - **视频增强** https://github.com/yulunzhang/video-enhancement  
 - **压缩编码** https://github.com/flyywh/Image-compression-and-video-coding  
-- **超分辨率**
+- **video SR**
 [https://github.com/LoSealL/VideoSuperResolution](https://github.com/LoSealL/VideoSuperResolution)
+- **image SR**
 [https://github.com/icpm/super-resolution](https://github.com/icpm/super-resolution)
 [https://github.com/YapengTian/Single-Image-Super-Resolution](https://github.com/YapengTian/Single-Image-Super-Resolution)
 - **Awesome Deep Vision** https://github.com/kjw0612/awesome-deep-vision
