@@ -17,7 +17,7 @@ GAN，简单就是通过生成网络loss与对抗网络loss的设计上同时追
 
 ![https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181220111456.jpg](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181220111456.jpg)
 
-如图，SRGAN的生成挖网络是一个resnet，content loss使用基于VGG框架的特征图计算的loss（对像素空间的变化更稳定）。如图所示，生成网络G使用了B个残差blocks，每个block包括3*3 卷积核，生成64个特征图，后接着batch-normalization layers and ParametricReLU，然后再重复一次刚才操作，接着加上input，经过B个blockS后，做上几个卷积就，最后上采样使用已经训练好的sub-pixel convolution层，然后卷积生成HR图像。
+如图，SRGAN的生成网络是一个resnet（称为SRResNet），content loss使用基于VGG框架的特征图计算的loss（对像素空间的变化更稳定）。图所示，生成网络G使用了B个残差blocks，每个block包括3*3 卷积核，生成64个特征图，后接着batch-normalization layers and ParametricReLU，然后再重复一次刚才操作，接着加上input，经过B个blockS后，做上几个卷积就，最后上采样使用已经训练好的sub-pixel convolution层，然后卷积生成HR图像。
  
 
 对抗网络D使用8个卷积层，每层卷积核3* 3，第一层生成特征图个数64，后面层依次*2，最后一层生成215个特征图。然后接着两个dense层和一个sigmoid激活得到最后的分类概率。
