@@ -41,12 +41,13 @@ SRGAN使用ImageNet的随机350k张图片作为训练集。LR是通过HR做4倍�
 , SRGAN-VGG54，其中SRGAN-VGG54结合的mos值是最好的，也就是视觉效果最好了（虽然psnr，ssim比其他会有降低）。
 
 对于感知loss文中做了比较，直接mse来获得loss，使用VGG22获得低层特征求loss，使用vgg54获得高层特征获得loss，趋势是高频细节可以恢复得越来越好（表现为mos值提升）。如图所示：
-[https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181220170523.jpg](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181220170523.jpg)
+
+![https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181220170523.jpg](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181220170523.jpg)
 
 
 直接上SRGAN效果图，细节很丰满（虽然有些细节和ground truth不一致）。x4超分能在高频细节达到这个效果真是令人震撼。
 
-[https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181220170857.jpg](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181220170857.jpg)
+![https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181220170857.jpg](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181220170857.jpg)
 
 ## 开源实现 ##
 
