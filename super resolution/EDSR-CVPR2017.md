@@ -10,7 +10,7 @@ unnecessary modules to simplify the network architecture.
 
 ![https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181220175338.jpg](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181220175338.jpg)
 
-如图，原始block是经过卷积、批量归一化（BN）、激活ReLU、卷积、BN，然后加上输入并最后激活得到输出；SRResNet的block去掉了最后一个激活，EDSR则去掉了所有BN，所以网络结构更简洁（特别BN耗内存也耗时），这样就可以增加更多的层来训练更复杂的网络。
+如图，原始res block是经过卷积、批量归一化（BN）、激活ReLU、卷积、BN，然后加上输入并最后激活得到输出；SRResNet的block去掉了最后一个激活，EDSR则去掉了所有BN，所以网络结构更简洁（特别BN耗内存也耗时），这样就可以增加更多的层来训练更复杂的网络。
 
 EDSR整个网络结构如下图所示，整个结构基于SRResNet，相比之下，ResBlock去除了BN层，并且block的特征数相同，如64或256，一共指定了32个blocks。
 
