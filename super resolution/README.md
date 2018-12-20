@@ -5,3 +5,7 @@
 - [FSRCNN-ECCV2016](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/FSRCNN-ECCV2016.md) 
 - [VDSR-CVPR2016](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/VDSR-CVPR2016.md) 
 - [DRCN-CVPR2016](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/DRCN-CVPR2016.md) 
+
+- [LapSRN-CVPR2017](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/LapSRN-CVPR2017.md) 
+- [SRDenseNet-ICCV2017](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/SRDenseNet-ICCV2017.md) 
+- [SRGAN-CVPR2017](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/SRGAN-CVPR2017.md) 
