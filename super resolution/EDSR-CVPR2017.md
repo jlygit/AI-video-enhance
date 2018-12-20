@@ -4,7 +4,9 @@
 
 based on the SRResNet architecture,
 we first optimize it by analyzing and removing
-unnecessary modules to simplify the network architecture. 是基于SRResNet（SRGAN的生成网络）的优化，移除了一些不必要的结构，简化Residual blocks结构。
+unnecessary modules to simplify the network architecture. 
+
+是基于SRResNet（SRGAN的生成网络）的优化，移除了一些不必要的结构，简化Residual blocks结构。
 
 ![https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181220175338.jpg](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/image/QQ%E6%88%AA%E5%9B%BE20181220175338.jpg)
 
