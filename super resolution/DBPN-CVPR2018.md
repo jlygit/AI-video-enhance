@@ -46,6 +46,6 @@ DBPN使用了iterative errorcorrecting feedback mechanism，迭代误差校正�
 
 **PyTorch** [https://github.com/alterzero/DBPN-Pytorch](https://github.com/alterzero/DBPN-Pytorch)
 
-**caffe ** [https://github.com/alterzero/DBPN-caffe](https://github.com/alterzero/DBPN-caffe)
+**caffe** [https://github.com/alterzero/DBPN-caffe](https://github.com/alterzero/DBPN-caffe)
 
 **Keras** [https://github.com/rajatkb/DBPN-Keras](https://github.com/rajatkb/DBPN-Keras)
