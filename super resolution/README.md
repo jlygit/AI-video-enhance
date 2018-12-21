@@ -9,3 +9,4 @@
 - [SRDenseNet-ICCV2017](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/SRDenseNet-ICCV2017.md) 
 - [SRGAN-CVPR2017](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/SRGAN-CVPR2017.md) 
 - [EDSR-CVPR2017](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/EDSR-CVPR2017.md) 
+- [DBPN-CVPR2018](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/DBPN-CVPR2018.md) 
