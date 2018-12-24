@@ -11,3 +11,4 @@
 - [EDSR-CVPR2017](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/EDSR-CVPR2017.md) 
 - [DBPN-CVPR2018](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/DBPN-CVPR2018.md) 
 - [RDN-CVPR2018](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/RDN-CVPR2018.md) 
+- [RCAN-ECCV2018](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/RCAN-ECCV2018.md) 
