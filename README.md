@@ -13,6 +13,10 @@ This repository collects the state-of-the-art algorithms for video/image enhance
 - [LapSRN-CVPR2017](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/LapSRN-CVPR2017.md) 
 - [SRDenseNet-ICCV2017](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/SRDenseNet-ICCV2017.md) 
 - [SRGAN-CVPR2017](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/SRGAN-CVPR2017.md) 
+- [EDSR-CVPR2017](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/EDSR-CVPR2017.md) 
+- [DBPN-CVPR2018](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/DBPN-CVPR2018.md) 
+- [RDN-CVPR2018](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/RDN-CVPR2018.md) 
+- [RCAN-ECCV2018](https://github.com/jlygit/AI-video-enhance/blob/master/super%20resolution/RCAN-ECCV2018.md) 
 
 # 相关资源
 - **视频增强** https://github.com/yulunzhang/video-enhancement  
