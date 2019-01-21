@@ -28,4 +28,5 @@ This repository collects the state-of-the-art algorithms for video/image enhance
 [https://github.com/YapengTian/Single-Image-Super-Resolution](https://github.com/YapengTian/Single-Image-Super-Resolution)
 - **Awesome Deep Vision** https://github.com/kjw0612/awesome-deep-vision
 - **Awesome Computer Vision** https://github.com/jbhuang0604/awesome-computer-vision
+- **denoising** https://github.com/flyywh/Image-Denoising-State-of-the-art
 
