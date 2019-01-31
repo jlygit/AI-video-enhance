@@ -1,4 +1,3 @@
-
 # DnCNN-TIP2017 #
 
 Beyond a Gaussian Denoiser,号称不仅仅适用于高斯白噪声，也可用于未知level的高斯白噪声。所以文中用同一个DnCnn同时训练几种任务：Blind Gaussian denoising（多level）, single image super-resolution（SISR ,降采样再上采样产生的噪声,多尺度） and JPEG image deblocking（多种质量系数）。文中也提及了， 很多深度学习去噪算法如MLP、TRND都是针对某level的噪声训练一个模型，不太通用。
@@ -17,7 +16,8 @@ DnCNN-3：单模型处理三种任务，包括高斯盲去噪、SISR、JPEG debl
 JPEG encoder。块大小为50x50，batchs大小为128。
 
 看效果。
-![]([https://github.com/jlygit/AI-video-enhance/blob/master/artifact%20reduction-deblocking-denoising/image/QQ%E6%88%AA%E5%9B%BE20190131152446.jpg](https://github.com/jlygit/AI-video-enhance/blob/master/artifact%20reduction-deblocking-denoising/image/QQ%E6%88%AA%E5%9B%BE20190131152446.jpg))
+
+![](https://github.com/jlygit/AI-video-enhance/blob/master/artifact%20reduction-deblocking-denoising/image/QQ%E6%88%AA%E5%9B%BE20190131152446.jpg)
 
 ## 开源实现 ##
 
